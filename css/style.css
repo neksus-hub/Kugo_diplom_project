@@ -174,14 +174,14 @@ body {
 .header-img {
   background-image: url("/img/header-img.png");
   margin: auto;
-  min-height: 445px;
-  background-size: contain;
+  background-size: 100% 445px;
   background-position: center right;
-  background-repeat: repeat;
-  width: 97%;
+  height: 27.8125rem;
+  background-repeat: no-repeat;
   position: relative;
   object-fit: cover;
   border-radius: 10px;
+  width: 97%;
 }
 .header-img::before {
   content: "";
@@ -196,7 +196,7 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  padding: 56px 0;
+  padding-top: 56px;
 }
 .contacts-header {
   display: flex;
@@ -228,6 +228,7 @@ body {
 .header-content {
   position: relative;
   width: 55%;
+  height: 100%;
 }
 .header-content-title {
   color: var(--white, #fff);
@@ -295,4 +296,5 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 3.5rem;
 }
