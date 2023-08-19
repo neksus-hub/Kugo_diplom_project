@@ -71,7 +71,7 @@
               <div class="line-catalog-button line-catalog-button-second"></div>
               <div class="line-catalog-button line-catalog-button-third"></div>
             </div>
-            Каталог
+            <a href="#" class="catalog-button-link">Каталог</a>
           </button>
         <!-- /.catalog -->
         <div class="search-box">
@@ -113,21 +113,26 @@
     <!-- /.navbar-bottom -->
 
     <header class="header header-img">
-      <div class="container">
-        <div class="header-content-wrapper">
+      <div class="header-content-wrapper">
+        <div class="container">
           <div class="contacts-header">
-            <div class="header-adress-block">
-              <svg class="header-adress-icon" width="15px" height="15px">
-                <use href="img/sprite.svg#pin"></use>
-              </svg>
-              <address class="header-adress">
-                <a href="#" class="header-adress-link">
-                  Восточно-Кругликовская улица, 86
-                </a>
-              </address>
+            <div class="contacts-header-wrapper">
+              <div class="header-adress-block">
+                <svg class="header-adress-icon" width="15px" height="15px">
+                  <use href="img/sprite.svg#pin"></use>
+                </svg>
+                <address class="header-adress">
+                  <a href="#" class="header-adress-link">
+                    Восточно-Кругликовская улица, 86
+                  </a>
+                </address>
+              </div>
+              <!-- /.header-adress -->
+              <div class="schedule-block">
+                <p class="schedule">Вт - Сб 10:00 - 20:00</p>
+              </div>
             </div>
-            <!-- /.header-adress -->
-            <p class="schedule">Вт - Сб 10:00 - 20:00</p>
+            <!-- /.contacts-header-wrapper -->
           </div>
           <!-- /.contacts-header -->
           <div class="header-content">
@@ -155,10 +160,11 @@
             <button class="button-light button-header-content">Записаться</button>
           </div>
           <!-- /.header-content -->
+
         </div>
-        <!-- /.header-content-wrapper -->
+        <!-- /.container -->
       </div>
-      <!-- /.container -->
+      <!-- /.header-content-wrapper -->
     </header>
     <!-- /.header -->
     <script src="js/main.js"></script>

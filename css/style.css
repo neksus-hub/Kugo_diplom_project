@@ -86,7 +86,6 @@ body {
   margin-top: 0;
 }
 .search-txt {
-  width: 603px;
   height: 40px;
   padding: 10px 0 10px 20px;
   border-radius: 5px 0 0 5px;
@@ -97,6 +96,8 @@ body {
   font-weight: 400;
   line-height: normal;
   outline: none;
+  display: flex;
+  flex-grow: 1;
 }
 .search-btn {
   display: flex;
@@ -113,6 +114,7 @@ body {
   display: flex;
   align-items: center;
   margin-right: 47px;
+  flex-grow: 1;
 }
 .catalog-button {
   width: 114px;
@@ -201,6 +203,10 @@ body {
 .contacts-header {
   display: flex;
   align-items: center;
+}
+.contacts-header-wrapper {
+  display: flex;
+  align-items: center;
   gap: 10px;
 }
 .header-adress-block {
@@ -224,6 +230,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
 }
 .header-content {
   position: relative;
@@ -296,5 +303,117 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 3.5rem;
+}
+.catalog-button-link {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+  .search-box {
+    width: 50%;
+  }
+  .header-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .header-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 876px) {
+  .header-img {
+    background-size: 132% 493px;
+    height: 30.813rem;
+  }
+  .catalog-button-link {
+    display: none;
+  }
+  .catalog-button {
+    width: 2.5rem;
+    justify-content: center;
+    padding: 0.9375rem;
+  }
+  .line-block {
+    margin: 0;
+  }
+  .shopping-cart-title {
+    display: none;
+  }
+}
+@media (max-width: 756px) {
+  .header-img {
+    background: #6f73ee;
+  }
+  .header-content {
+    width: 100%;
+  }
+}
+@media (max-width: 689px) {
+  .favorites {
+    display: none;
+  }
+  .search-box {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 557px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-bottom {
+    margin-top: 15px;
+  }
+}
+@media (max-width: 535px) {
+  .header-img {
+    height: 33.813rem;
+  }
+  .header-features {
+    flex-direction: column;
+  }
+  .header-features-item {
+    width: 100%;
+  }
+  .header-content-title {
+    font-size: 1.6875rem;
+  }
+  .header-content-text {
+    font-size: 16px;
+  }
+  .button-header-content {
+    width: 100%;
+  }
+}
+@media (max-width: 487px) {
+  .logo-block {
+    display: none;
+  }
+}
+@media (max-width: 413px) {
+  .header-img {
+    height: 35.813rem;
+  }
+}
+@media (max-width: 382px) {
+  .contacts-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+  .header-adress-block {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .schedule-block {
+    display: flex;
+    width: 100%;
+  }
 }
