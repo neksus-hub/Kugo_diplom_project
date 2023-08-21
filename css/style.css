@@ -176,7 +176,7 @@ body {
 .header-img {
   background-image: url("/img/header-img.png");
   margin: auto;
-  background-size: 100% 445px;
+  background-size: 90% 445px;
   background-position: center right;
   height: 27.8125rem;
   background-repeat: no-repeat;
@@ -184,6 +184,7 @@ body {
   object-fit: cover;
   border-radius: 10px;
   width: 97%;
+  margin-bottom: 100px;
 }
 .header-img::before {
   content: "";
@@ -307,6 +308,123 @@ body {
 .catalog-button-link {
   text-decoration: none;
   color: white;
+}
+.support {
+  margin-bottom: 10.1875rem;
+}
+.support-wrapper {
+  display: flex;
+  align-items: center;
+}
+.support-info {
+  width: 645px;
+}
+.support-info-title {
+  color: var(--black, #282739);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.support-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.support-info-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 0;
+}
+.support-list-text {
+  color: var(--black, #282739);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.support-info-text {
+  color: var(--black, #282739);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.support-img {
+  border-radius: 0.625rem;
+  min-width: 32.1875rem;
+}
+.support-img-block {
+  margin-right: 20px;
+  right: 0;
+  position: absolute;
+}
+
+.education-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.education-info {
+  width: 645px;
+}
+.education-info-title {
+  color: var(--black, #282739);
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.education-list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.education-info-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 0;
+}
+.education-list-text {
+  color: var(--black, #282739);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.education-info-text {
+  color: var(--black, #282739);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 119%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+.education-img {
+  border-radius: 0.625rem;
+  min-width: 28.9375rem;
+}
+.education-img-block {
+  margin-left: 20px;
+  left: 0;
+  position: absolute;
 }
 
 @media (max-width: 1200px) {
