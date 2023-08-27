@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -262,277 +263,303 @@
       <!-- /.container -->
     </section>
 
+
+
     <section class="cards">
       <div class="container">
         <div class="cards-title-block">
           <h1 class="cards-title">Сейчас для тест-драйва и обучения доступны следующие модели</h1>
         </div>
-        <div class="cards-wrapper">
-          <div class="cards-item">
-            <div class="card-img-wrapper">
-                <div class="card-features">
-                  <div class="card-feature-text-block">
-                    <p class="card-feature-text">ХИТ</p>
+
+        <!-- Слайдер -->
+        <div class="swiper">
+          <!--Обертка-->
+          <div class="swiper-wrapper">
+            <!-- Слайды -->
+            <div class="swiper-slide">
+              <div class="cards-item">
+                <div class="card-img-wrapper">
+                  <div class="card-features">
+                    <div class="card-feature-text-block">
+                      <p class="card-feature-text">ХИТ</p>
+                    </div>
+                    <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
                   </div>
-                  <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
+                  <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
                 </div>
-                <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
-            </div>
-            <div class="card-info">
-              <div class="cards-options">
-                <h3 class="card-title">Kugoo Kirin M4</h3>
-                <ul class="card-options-list">
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#accumulator"></use>
-                    </svg>
-                    <p class="option-text">2000 mAh</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#speed"></use>
-                    </svg>
-                    <p class="option-text">60 км/ч</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#power"></use>
-                    </svg>
-                    <p class="option-text">1,2 л.с.</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#timer"></use>
-                    </svg>
-                    <p class="option-text">5 часов</p>
-                  </li>
-                </ul>
+                <div class="card-info">
+                <div class="cards-options">
+                  <h3 class="card-title">Kugoo Kirin M4</h3>
+                  <ul class="card-options-list">
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#accumulator"></use>
+                      </svg>
+                      <p class="option-text">2000 mAh</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#speed"></use>
+                      </svg>
+                      <p class="option-text">60 км/ч</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#power"></use>
+                      </svg>
+                      <p class="option-text">1,2 л.с.</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#timer"></use>
+                      </svg>
+                      <p class="option-text">5 часов</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.cards-options -->
+                <div class="price">
+                  <div class="price-text">
+                    <p class="old-price">39 900 ₽</p>
+                    <h3 class="new-price">29 900 ₽</h3>
+                  </div>
+                  <div class="price-icons">
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#basket-light"></use>
+                      </svg>
+                    </div>
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#heart-light"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.price -->
+                <button class="button card-button">Записаться на тест-драйв</button>
+                </div>
               </div>
-              <!-- /.cards-options -->
-              <div class="price">
-                <div class="price-text">
-                  <p class="old-price">39 900 ₽</p>
-                  <h3 class="new-price">29 900 ₽</h3>
+              <!-- /.cards-item -->
+            </div>
+            <div class="swiper-slide">
+              <div class="cards-item">
+                <div class="card-img-wrapper">
+                  <div class="card-features">
+                    <div class="card-feature-new-block">
+                      <p class="card-feature-text-new">Новинка</p>
+                    </div>
+                    <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
+                  </div>
+                  <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
                 </div>
-                <div class="price-icons">
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#basket-light"></use>
-                    </svg>
+                <div class="card-info">
+                <div class="cards-options">
+                  <h3 class="card-title">Kugoo Kirin M4</h3>
+                  <ul class="card-options-list">
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#accumulator"></use>
+                      </svg>
+                      <p class="option-text">2000 mAh</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#speed"></use>
+                      </svg>
+                      <p class="option-text">60 км/ч</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#power"></use>
+                      </svg>
+                      <p class="option-text">1,2 л.с.</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#timer"></use>
+                      </svg>
+                      <p class="option-text">5 часов</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.cards-options -->
+                <div class="price">
+                  <div class="price-text">
+                    <p class="old-price">39 900 ₽</p>
+                    <h3 class="new-price">29 900 ₽</h3>
                   </div>
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#heart-light"></use>
-                    </svg>
+                  <div class="price-icons">
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#basket-light"></use>
+                      </svg>
+                    </div>
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#heart-light"></use>
+                      </svg>
+                    </div>
                   </div>
+                </div>
+                <!-- /.price -->
+                <button class="button card-button">Записаться на тест-драйв</button>
                 </div>
               </div>
-              <!-- /.price -->
-              <button class="button card-button">Записаться на тест-драйв</button>
+              <!-- /.cards-item -->
             </div>
-            <!-- /.card-info -->
+            <div class="swiper-slide">
+              <div class="cards-item">
+                <div class="card-img-wrapper">
+                  <div class="card-features">
+                    <div class="card-feature-text-block">
+                      <p class="card-feature-text">ХИТ</p>
+                    </div>
+                    <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
+                  </div>
+                  <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
+                </div>
+                <div class="card-info">
+                <div class="cards-options">
+                  <h3 class="card-title">Kugoo Kirin M4</h3>
+                  <ul class="card-options-list">
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#accumulator"></use>
+                      </svg>
+                      <p class="option-text">2000 mAh</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#speed"></use>
+                      </svg>
+                      <p class="option-text">60 км/ч</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#power"></use>
+                      </svg>
+                      <p class="option-text">1,2 л.с.</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#timer"></use>
+                      </svg>
+                      <p class="option-text">5 часов</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.cards-options -->
+                <div class="price">
+                  <div class="price-text">
+                    <p class="old-price">39 900 ₽</p>
+                    <h3 class="new-price">29 900 ₽</h3>
+                  </div>
+                  <div class="price-icons">
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#basket-light"></use>
+                      </svg>
+                    </div>
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#heart-light"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.price -->
+                <button class="button card-button">Записаться на тест-драйв</button>
+                </div>
+              </div>
+              <!-- /.cards-item -->
+            </div>
+            <div class="swiper-slide">
+              <div class="cards-item">
+                <div class="card-img-wrapper">
+                  <div class="card-features">
+                    <div class="card-feature-new-block">
+                      <p class="card-feature-text-new">Новинка</p>
+                    </div>
+                    <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
+                  </div>
+                  <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
+                </div>
+                <div class="card-info">
+                <div class="cards-options">
+                  <h3 class="card-title">Kugoo Kirin M4</h3>
+                  <ul class="card-options-list">
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#accumulator"></use>
+                      </svg>
+                      <p class="option-text">2000 mAh</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#speed"></use>
+                      </svg>
+                      <p class="option-text">60 км/ч</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#power"></use>
+                      </svg>
+                      <p class="option-text">1,2 л.с.</p>
+                    </li>
+                    <li class="card-options-item">
+                      <svg class="education-list-icon" width="18px" height="18px">
+                        <use href="img/sprite.svg#timer"></use>
+                      </svg>
+                      <p class="option-text">5 часов</p>
+                    </li>
+                  </ul>
+                </div>
+                <!-- /.cards-options -->
+                <div class="price">
+                  <div class="price-text">
+                    <p class="old-price">39 900 ₽</p>
+                    <h3 class="new-price">29 900 ₽</h3>
+                  </div>
+                  <div class="price-icons">
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#basket-light"></use>
+                      </svg>
+                    </div>
+                    <div class="price-icon-item">
+                      <svg class="price-icon" width="20px" height="20px">
+                        <use href="img/sprite.svg#heart-light"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <!-- /.price -->
+                <button class="button card-button">Записаться на тест-драйв</button>
+                </div>
+              </div>
+              <!-- /.cards-item -->
+            </div>
           </div>
-          <!-- /.cards-item -->
-          <div class="cards-item">
-            <div class="card-img-wrapper">
-                <div class="card-features">
-                  <div class="card-feature-new-block">
-                    <p class="card-feature-text-new">Новинка</p>
-                  </div>
-                  <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
-                </div>
-                <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
-            </div>
-            <div class="card-info">
-              <div class="cards-options">
-                <h3 class="card-title">Kugoo Kirin M4</h3>
-                <ul class="card-options-list">
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#accumulator"></use>
-                    </svg>
-                    <p class="option-text">2000 mAh</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#speed"></use>
-                    </svg>
-                    <p class="option-text">60 км/ч</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#power"></use>
-                    </svg>
-                    <p class="option-text">1,2 л.с.</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#timer"></use>
-                    </svg>
-                    <p class="option-text">5 часов</p>
-                  </li>
-                </ul>
+          <!-- Переключение -->
+          <div class="slider-button-wrapper">
+            <div class="slider-buttons">
+              <div class="slider-button-prev">
+                <svg class="slider-button-icon" width="36px" height="24px">
+                  <use href="img/sprite.svg#arrow-prev"></use>
+                </svg>
               </div>
-              <!-- /.cards-options -->
-              <div class="price">
-                <div class="price-text">
-                  <p class="old-price">39 900 ₽</p>
-                  <h3 class="new-price">29 900 ₽</h3>
-                </div>
-                <div class="price-icons">
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#basket-light"></use>
-                    </svg>
-                  </div>
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#heart-light"></use>
-                    </svg>
-                  </div>
-                </div>
+              <div class="slider-button-next">
+                <svg class="slider-button-icon" width="36px" height="24px">
+                  <use href="img/sprite.svg#arrow-next"></use>
+                </svg>
               </div>
-              <!-- /.price -->
-              <button class="button card-button">Записаться на тест-драйв</button>
             </div>
-            <!-- /.card-info -->
-          </div>
-          <!-- /.cards-item -->
-          <div class="cards-item">
-            <div class="card-img-wrapper">
-                <div class="card-features">
-                  <div class="card-feature-text-block">
-                    <p class="card-feature-text">ХИТ</p>
-                  </div>
-                  <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
-                </div>
-                <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
-            </div>
-            <div class="card-info">
-              <div class="cards-options">
-                <h3 class="card-title">Kugoo Kirin M4</h3>
-                <ul class="card-options-list">
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#accumulator"></use>
-                    </svg>
-                    <p class="option-text">2000 mAh</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#speed"></use>
-                    </svg>
-                    <p class="option-text">60 км/ч</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#power"></use>
-                    </svg>
-                    <p class="option-text">1,2 л.с.</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#timer"></use>
-                    </svg>
-                    <p class="option-text">5 часов</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- /.cards-options -->
-              <div class="price">
-                <div class="price-text">
-                  <p class="old-price">39 900 ₽</p>
-                  <h3 class="new-price">29 900 ₽</h3>
-                </div>
-                <div class="price-icons">
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#basket-light"></use>
-                    </svg>
-                  </div>
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#heart-light"></use>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <!-- /.price -->
-              <button class="button card-button">Записаться на тест-драйв</button>
-            </div>
-            <!-- /.card-info -->
-          </div>
-          <!-- /.cards-item -->
-          <div class="cards-item">
-            <div class="card-img-wrapper">
-                <div class="card-features">
-                  <div class="card-feature-new-block">
-                    <p class="card-feature-text-new">Новинка</p>
-                  </div>
-                  <img src="/img/scales-grey.svg" alt="scales" class="card-feature-icon">
-                </div>
-                <img src="./img/scooter-card-2.png" alt="scooter" class="card-img">
-            </div>
-            <div class="card-info">
-              <div class="cards-options">
-                <h3 class="card-title">Kugoo Kirin M4</h3>
-                <ul class="card-options-list">
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#accumulator"></use>
-                    </svg>
-                    <p class="option-text">2000 mAh</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#speed"></use>
-                    </svg>
-                    <p class="option-text">60 км/ч</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#power"></use>
-                    </svg>
-                    <p class="option-text">1,2 л.с.</p>
-                  </li>
-                  <li class="card-options-item">
-                    <svg class="education-list-icon" width="1.125rem" height="1.125rem">
-                      <use href="img/sprite.svg#timer"></use>
-                    </svg>
-                    <p class="option-text">5 часов</p>
-                  </li>
-                </ul>
-              </div>
-              <!-- /.cards-options -->
-              <div class="price">
-                <div class="price-text">
-                  <p class="old-price">39 900 ₽</p>
-                  <h3 class="new-price">29 900 ₽</h3>
-                </div>
-                <div class="price-icons">
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#basket-light"></use>
-                    </svg>
-                  </div>
-                  <div class="price-icon-item">
-                    <svg class="price-icon" width="1.25rem" height="1.25rem">
-                      <use href="img/sprite.svg#heart-light"></use>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <!-- /.price -->
-              <button class="button card-button">Записаться на тест-драйв</button>
-            </div>
-            <!-- /.card-info -->
-          </div>
-          <!-- /.cards-item -->
         </div>
       </div>
     </section>
     <!-- /.cards -->
-
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
