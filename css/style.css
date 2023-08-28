@@ -435,6 +435,9 @@ body {
   left: 0;
   position: absolute;
 }
+.cards {
+  margin-bottom: 6.25rem;
+}
 .cards-title-block {
   display: flex;
   justify-content: center;
@@ -443,7 +446,6 @@ body {
 .cards-wrapper {
   display: flex;
   gap: 1.875rem;
-  margin-bottom: 30px;
   justify-content: center;
 }
 .cards-title {
@@ -651,6 +653,113 @@ body {
   border-radius: 10px 0 0 10px;
   border-left: 1px solid white;
 }
+.cta {
+  width: 97%;
+  height: 27.8125rem;
+  background: #f4f7fb;
+  margin: auto;
+  border-radius: 0.625rem;
+  margin-bottom: 6.25rem;
+}
+.cta-wrapper {
+  display: flex;
+  position: relative;
+  height: 27.8125rem;
+  padding-bottom: 4.875rem;
+  padding-top: 5.5rem;
+}
+.cta-img {
+  position: absolute;
+  right: 0;
+  max-width: 25.625rem;
+  bottom: 0;
+  width: 40%;
+}
+.cta-info {
+  max-width: 38.3125rem;
+  width: 60%;
+}
+.cta-title {
+  color: var(--black, #282739);
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+.cta-text {
+  color: var(--black, #282739);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 1.25rem;
+}
+.cta-button {
+  height: 3.3125rem;
+  width: 16.125rem;
+  color: var(--white, #fff);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.cta-input {
+  height: 3.3125rem;
+  width: 16.125rem;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--gray-200, #eaebed);
+  background: var(--white, #fff);
+  padding: 0.9375rem 3.25rem 0.9375rem 1.5625rem;
+}
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+.checkbox-wrapper {
+  display: flex;
+  align-items: top;
+  gap: 0.75rem;
+  position: relative;
+}
+.checkbox {
+  appearance: none;
+  -webkit-apearance: none;
+  position: absolute;
+}
+.checkbox-label {
+  margin: 0;
+  color: var(--black, #282739);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 21.0625rem;
+  line-height: 0.875rem;
+  padding-left: 1.875rem;
+}
+.checkbox-label::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background: #fff;
+  border: 1px solid var(--gray-200, #eaebed);
+  display: block;
+  border-radius: 0.125rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.checkbox:checked + .checkbox-label::before {
+  background-image: url(../img/check.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media (max-width: 1300px) {
   .cards-wrapper {
     gap: 0;
