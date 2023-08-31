@@ -713,6 +713,10 @@ body {
   background: var(--white, #fff);
   padding: 0.9375rem 3.25rem 0.9375rem 1.5625rem;
 }
+.cta-input:focus {
+  border: 1px solid #6f73ee;
+  outline: none;
+}
 .input-group {
   display: flex;
   align-items: center;
@@ -759,7 +763,16 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+.just-validate-error-label {
+  position: absolute;
+  top: 15.8125rem;
+  left: 0;
+  font-size: 0.7rem;
+  background-color: inherit;
+}
+.cta-input.is-invalid {
+  border: 1px solid red;
+}
 @media (max-width: 1300px) {
   .cards-wrapper {
     gap: 0;
