@@ -20,3 +20,30 @@ const swiper = new Swiper(".swiper", {
     },
   },
 });
+
+const forms = document.querySelectorAll("form");
+forms.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation
+    .addField("[name=userphone]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите номер телефона",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target; // наша форма
+      const formData = new FormData(thisForm); // данные из формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          console.log(response);
+        });
+      };
+      ajaxSend(formData);
+    });
+});

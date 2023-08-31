@@ -220,7 +220,7 @@
             <img src="./img/scooter-double.png" alt="scooter" class="education-img">
           </div>
           <div class="education-info">
-            <h1 class="education-info-title">Научим правильной и безопасной езде в городе вас или вашего ребенка</h1>
+            <h1 class="education-info-title">Научим правильнойи безопасной езде в городе вас или вашего ребенка</h1>
               <p class="education-info-text"><b>На обучении специалист расскажет:</b></p>
               <ul class="education-info-list">
                 <li class="education-list-item">
@@ -562,7 +562,7 @@
 
     <section class="cta">
       <div class="container">
-        <form action="handler.php" method="POST" class="cta-form">
+        <form action="handler.php" class="cta-form" method="post">
           <div class="cta-wrapper">
             <div class="cta-info">
               <h1 class="cta-title">
@@ -570,7 +570,7 @@
               </h1>
               <p class="cta-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
               <div class="input-group">
-                <input type="text" class="cta-input" placeholder="+7 (___) __ - __ - __" id="phone" name="userphone">
+                <input type="tel" class="cta-input" name="userphone" placeholder="+7 (___) __ - __ - __" id="phone">
                 <button class="button cta-button" type="submit">Оставить заявку на тест-драйв</button>
               </div>
               <div class="checkbox-wrapper">
@@ -586,6 +586,7 @@
       </div>
     </section>
 
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
