@@ -562,7 +562,7 @@
 
     <section class="cta">
       <div class="container">
-        <form action="#" class="cta-form" method="POST">
+        <form action="handler.php" class="cta-form" method="POST">
           <div class="cta-wrapper">
             <div class="cta-info">
               <h1 class="cta-title">
