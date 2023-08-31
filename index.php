@@ -562,7 +562,7 @@
 
     <section class="cta">
       <div class="container">
-        <form action="handler.php" class="cta-form" method="POST">
+        <form action="handler.php" method="POST" class="cta-form">
           <div class="cta-wrapper">
             <div class="cta-info">
               <h1 class="cta-title">
@@ -570,11 +570,11 @@
               </h1>
               <p class="cta-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
               <div class="input-group">
-                <input type="text" class="cta-input" placeholder="+7 (___) __ - __ - __" id="phone" name="user-phone">
-                <button class="button cta-button">Оставить заявку на тест-драйв</button>
+                <input type="text" class="cta-input" placeholder="+7 (___) __ - __ - __" id="phone" name="userphone">
+                <button class="button cta-button" type="submit">Оставить заявку на тест-драйв</button>
               </div>
               <div class="checkbox-wrapper">
-                <input type="checkbox" class="checkbox" id="checkbox">
+                <input type="checkbox" class="checkbox" id="checkbox" name="checkbox">
                 <label for="checkbox" class="checkbox-label">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
               </div>
             </div>

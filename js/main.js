@@ -27,7 +27,7 @@ forms.forEach((form) => {
     errorFieldCssClass: "is-invalid",
   });
   validation
-    .addField("[name=user-phone]", [
+    .addField("[name=userphone]", [
       {
         rule: "required",
         errorMessage: "Укажите номер телефона",
