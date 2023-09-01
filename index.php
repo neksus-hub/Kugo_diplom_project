@@ -572,6 +572,7 @@
                 Нет нужной модели, которую хотите протестировать?
               </h1>
               <p class="cta-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
+              <div class="input-wrapper">
               <div class="input-group">
                 <input type="tel" class="cta-input phone-mask" name="userphone" placeholder="+7 (___) __ - __ - __" id="phone">
                 <button class="button cta-button" type="submit">Оставить заявку на тест-драйв</button>
@@ -580,8 +581,10 @@
                 <input type="checkbox" class="checkbox" id="checkbox" name="checkbox">
                 <label for="checkbox" class="checkbox-label">Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности</label>
               </div>
+              </div>
+              <!-- /.input-wrapper -->
             </div>
-            <!-- /.card-info -->
+            <!-- /.cta-info -->
             <img src="/img/cta-img.png" alt="cta" class="cta-img">
           </div>
           <!-- /.cta-wrapper -->
