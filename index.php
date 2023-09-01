@@ -140,25 +140,27 @@
             <h1 class="header-content-title">Запишитесь на бесплатный тест-драйв электросамокатов</h1>
             <p class="header-content-text">в Москве без ограничения по времени</p>
               <div class="header-features-wrapper">
-            <div class="header-features">
-              <div class="header-features-item">
-                <div class="shell-features-icon">
-                  <svg class="header-adress-icon" width="1.6rem" height="1.6rem">
-                    <use href="img/sprite.svg#scooter"></use>
-                  </svg>
+                <div class="header-features">
+                  <div class="header-features-item">
+                    <div class="shell-features-icon">
+                      <svg class="header-adress-icon" width="1.6rem" height="1.6rem">
+                        <use href="img/sprite.svg#scooter"></use>
+                      </svg>
+                    </div>
+                    <p class="header-features-text">Поймете, какая модель вам подходит</p>
+                  </div>
+                  <div class="header-features-item">
+                    <div class="shell-features-icon">
+                      <svg class="header-adress-icon" width="1.6rem" height="1.6rem">
+                        <use href="img/sprite.svg#energy"></use>
+                      </svg>
+                    </div>
+                    <p class="header-features-text">Проверите лучшие самокаты в деле</p>
+                  </div>
                 </div>
-                <p class="header-features-text">Поймете, какая модель вам подходит</p>
-              </div>
-              <div class="header-features-item">
-                <div class="shell-features-icon">
-                  <svg class="header-adress-icon" width="1.6rem" height="1.6rem">
-                    <use href="img/sprite.svg#energy"></use>
-                  </svg>
-                </div>
-                <p class="header-features-text">Проверите лучшие самокаты в деле</p>
-              </div>
-            </div>
             <!-- /.header-features -->
+              </div>
+              <!-- /.header-features-wrapper -->
             <button class="button-light button-header-content">Записаться</button>
           </div>
           <!-- /.header-content -->
@@ -425,25 +427,25 @@
                   <h3 class="card-title">Kugoo Kirin M4</h3>
                   <ul class="card-options-list">
                     <li class="card-options-item">
-                      <svg class="education-list-icon" width="18px" height="18px">
+                      <svg class="education-list-icon" width="1.125rem" height="1.125rem">
                         <use href="img/sprite.svg#accumulator"></use>
                       </svg>
                       <p class="option-text">2000 mAh</p>
                     </li>
                     <li class="card-options-item">
-                      <svg class="education-list-icon" width="18px" height="18px">
+                      <svg class="education-list-icon" width="1.125rem" height="1.125rem">
                         <use href="img/sprite.svg#speed"></use>
                       </svg>
                       <p class="option-text">60 км/ч</p>
                     </li>
                     <li class="card-options-item">
-                      <svg class="education-list-icon" width="18px" height="18px">
+                      <svg class="education-list-icon" width="1.125rem" height="1.125rem">
                         <use href="img/sprite.svg#power"></use>
                       </svg>
                       <p class="option-text">1,2 л.с.</p>
                     </li>
                     <li class="card-options-item">
-                      <svg class="education-list-icon" width="18px" height="18px">
+                      <svg class="education-list-icon" width="1.125rem" height="1.125rem">
                         <use href="img/sprite.svg#timer"></use>
                       </svg>
                       <p class="option-text">5 часов</p>

@@ -479,6 +479,7 @@ body {
 .card-img {
   width: 242px;
   height: 182px;
+  max-width: 255px;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -567,7 +568,7 @@ body {
 .option-text {
   color: var(--gray-600, #5d6c7b);
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -794,6 +795,9 @@ body {
   .education-img {
     max-width: 25rem;
   }
+  .card-img {
+    max-width: 225px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -808,6 +812,9 @@ body {
   }
   .header-img {
     height: 29.813rem;
+  }
+  .card-img {
+    max-width: 214px;
   }
 }
 
@@ -864,7 +871,8 @@ body {
     max-width: 228px;
   }
   .card-img {
-    max-width: 227px;
+    max-width: 213px;
+    margin-top: 41px;
   }
 }
 @media (max-width: 756px) {
@@ -943,23 +951,139 @@ body {
     width: 100%;
   }
 }
-@media (max-width: 413px) {
+@media (max-width: 420px) {
   .header-img {
-    height: 30.813rem;
+    height: 65.813rem;
+  }
+  .contacts-header-wrapper {
+    display: block;
+  }
+  .header-adress-block {
+    margin-bottom: 10px;
+  }
+  .header-content-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .shell-features-icon {
+    height: 6rem;
+    width: 6rem;
+  }
+  .header-adress-icon {
+    height: 22px;
+    width: 22px;
+  }
+  .header-features {
+    display: block;
+    margin-bottom: 5.5rem;
+  }
+  .header-features-item {
+    margin-bottom: 20px;
+  }
+  .header-features-text {
+    width: 60%;
+    line-height: 20px;
+    font-size: 18px;
+  }
+  .header-content-text {
+    font-size: 2rem;
+  }
+  .button-header-content {
+    height: 5.313rem;
+    font-size: 2rem;
+    width: 100%;
+  }
+  .support-info-title {
+    font-size: 18px;
+  }
+  .support-info-text {
+    font-size: 16px;
+  }
+  .support-list-text {
+    font-size: 1.6rem;
+    max-width: 90%;
+  }
+  .support-list-item {
+    gap: 10px;
+  }
+  .education {
+    margin-bottom: 6.625rem;
+  }
+  .education-info-text {
+    font-size: 16px;
+  }
+  .education-list-text {
+    font-size: 1.6rem;
+  }
+  .education-list-item {
+    align-items: first baseline;
+    gap: 10px;
+  }
+  .education-list-text {
+    max-width: 90%;
+  }
+  .cards-title {
+    font-size: 2.1875rem;
+  }
+  .option-text {
+    font-size: 1.7rem;
+  }
+  .card-img {
+    max-width: 223px;
+  }
+  .cta {
+    height: 39.813rem;
+  }
+  .cta-img {
+    display: none;
+  }
+  .cta-info {
+    width: 100%;
+  }
+  .cta-title {
+    font-size: 24px;
+  }
+  .cta-text {
+    font-size: 1.4rem;
   }
 }
-@media (max-width: 382px) {
-  .contacts-header-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 0.625rem;
+@media (max-width: 413px) {
+  .header-img {
+    height: 70.813rem;
+  }
+}
+@media (max-width: 383px) {
+  .header-img {
+    height: 74.813rem;
   }
   .header-adress-block {
     display: flex;
     justify-content: flex-start;
   }
+  .header-features-text {
+    font-size: 16px;
+  }
   .schedule-block {
     display: flex;
     width: 100%;
+  }
+}
+@media (max-width: 335px) {
+  .header-img {
+    height: 76.813rem;
+  }
+  .header-features-text {
+    font-size: 14px;
+  }
+  .checkbox-label {
+    min-width: 100%;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .cta {
+    height: 43.813rem;
+  }
+  .input-group {
+    margin-bottom: 2.25rem;
   }
 }
