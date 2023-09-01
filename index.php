@@ -570,7 +570,7 @@
               </h1>
               <p class="cta-text">Оставьте заявку, и менеджер подберет нужный самокат</p>
               <div class="input-group">
-                <input type="tel" class="cta-input" name="userphone" placeholder="+7 (___) __ - __ - __" id="phone">
+                <input type="tel" class="cta-input phone-mask" name="userphone" placeholder="+7 (___) __ - __ - __" id="phone">
                 <button class="button cta-button" type="submit">Оставить заявку на тест-драйв</button>
               </div>
               <div class="checkbox-wrapper">
