@@ -139,6 +139,7 @@
           <div class="header-content">
             <h1 class="header-content-title">Запишитесь на бесплатный тест-драйв электросамокатов</h1>
             <p class="header-content-text">в Москве без ограничения по времени</p>
+              <div class="header-features-wrapper">
             <div class="header-features">
               <div class="header-features-item">
                 <div class="shell-features-icon">
