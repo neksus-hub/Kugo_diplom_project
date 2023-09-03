@@ -1,11 +1,11 @@
 <?php
-$user_phone = htmlspecialchars($_POST["userphone"]);
+$user_email = htmlspecialchars($_POST["useremail"]);
 
-$token = "6424788138:AAHLXsW_h7ptAHp-Oev158FJmGaDZe95OIM";
-$chat_id = "-981121937";
+$token = "5832527841:AAGBjZXqhanx8pT7MXrMorCQmG9pq8LC-To";
+$chat_id = "-904296570";
 
 $formData = array(
-  "Телефон: " => $user_phone
+  "E-mail клиента: " => $user_email
 );
 
 foreach($formData as $key => $value) {
@@ -19,9 +19,3 @@ if ($sendToTelegram) {
 } else {
   echo "Error";
 }
-
-
-
-
-
-

@@ -312,10 +312,12 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  cursor: pointer;
 }
 .catalog-button-link {
   text-decoration: none;
   color: white;
+  cursor: pointer;
 }
 .support {
   margin-bottom: 10.1875rem;
@@ -624,6 +626,7 @@ body {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .slider-button-wrapper {
   display: flex;
@@ -650,10 +653,12 @@ body {
 .slider-button-next {
   border-radius: 0 10px 10px 0;
   border-left: 1px solid white;
+  cursor: pointer;
 }
 .slider-button-prev {
   border-radius: 10px 0 0 10px;
   border-left: 1px solid white;
+  cursor: pointer;
 }
 .cta {
   width: 97%;
@@ -661,6 +666,7 @@ body {
   background: #f4f7fb;
   margin: auto;
   border-radius: 0.625rem;
+  margin-bottom: 6.25rem;
 }
 .cta-form {
   width: 100%;
@@ -712,6 +718,7 @@ body {
   color: var(--white, #fff);
   font-size: 1rem;
   font-weight: 400;
+  cursor: pointer;
 }
 .cta-input {
   height: 3.3125rem;
@@ -730,6 +737,7 @@ body {
   align-items: center;
   gap: 1.25rem;
   margin-bottom: 1.25rem;
+  position: relative;
 }
 .checkbox-wrapper {
   display: flex;
@@ -772,13 +780,74 @@ body {
   background-position: center;
 }
 .just-validate-error-label {
+  color: rgb(184, 17, 17);
   position: absolute;
-  top: 15.8125rem;
   left: 0;
-  font-size: 0.7rem;
-  background-color: inherit;
+  top: -1.1rem;
+  font-size: 12px;
 }
 .cta-input.is-invalid {
+  border: 1px solid red;
+}
+.bg-blue {
+  width: 100%;
+  background: var(--Purple, #6f73ee);
+  padding-top: 1.4375rem;
+  padding-bottom: 1.3125rem;
+}
+.footer-form {
+  display: flex;
+  align-items: center;
+}
+.footer-form-title {
+  color: var(--White, #fff);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 27.8125rem;
+  margin: 0;
+  margin-right: 8.938rem;
+}
+.footer-input {
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.2);
+  width: 25.625rem;
+  padding: 0.9375rem 1.5625rem;
+  border: 0;
+  color: var(--White, #fff);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-input:focus {
+  border: 0;
+  outline: none;
+}
+.footer-input-group {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 0;
+  position: relative;
+}
+.footer-form-button {
+  width: 8.75rem;
+  height: 3.3125rem;
+  padding: 0.9375rem 1.5625rem;
+  border-radius: 0.3125rem;
+  border: 0;
+  background: var(--White, #fff);
+  color: #6f73ee;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+.footer-input.is-invalid {
   border: 1px solid red;
 }
 @media (max-width: 1300px) {

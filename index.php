@@ -565,7 +565,7 @@
 
     <section class="cta">
       <div class="container">
-        <form action="handler.php" class="cta-form" method="post">
+        <form action="handler.php" class="form cta-form" method="post">
           <div class="cta-wrapper">
             <div class="cta-info">
               <h1 class="cta-title">
@@ -592,8 +592,28 @@
       </div>
     </section>
 
+    <footer class="footer">
+      <div class="bg-blue">
+        <div class="container">
+          <form action="email.php" class="form footer-form" method="post">
+            <h2 class="footer-form-title">Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты</h2>
+            <div class="footer-input-group">
+            <input class="footer-input" type="email" name="useremail" id="usermail" placeholder="Введите Ваш email" required>
+            <button class="footer-form-button" type="submit">Подписаться</button>
+            </div>
+            <!-- /.input-group footer-iput-group -->
+          </form>
+          <!-- /.footer-form -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.bg-blue -->
+    </footer>
+    <!-- /.footer -->
+    <script src="js/e-mail.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
+
   </body>
 </html>

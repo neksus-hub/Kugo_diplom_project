@@ -21,7 +21,7 @@ const swiper = new Swiper(".swiper", {
   },
 });
 
-const forms = document.querySelectorAll("form");
+const forms = document.querySelectorAll(".cta-form");
 forms.forEach((form) => {
   const validation = new JustValidate(form, {
     errorFieldCssClass: "is-invalid",
@@ -31,6 +31,47 @@ forms.forEach((form) => {
       {
         rule: "required",
         errorMessage: "Укажите номер телефона",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target; // наша форма
+      const formData = new FormData(thisForm); // данные из формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          console.log(response);
+        });
+      };
+      ajaxSend(formData);
+    });
+});
+
+const formse = document.querySelectorAll(".footer-form");
+formse.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation
+    .addField("[name=useremail]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите Ваш E-mail",
+      },
+      {
+        rule: "email",
+        errorMessage: "Некорректный E-mail",
+      },
+      {
+        rule: "minLength",
+        value: 10,
+        errorMessage: "Минимум 10 символов",
+      },
+      {
+        rule: "maxLength",
+        value: 30,
+        errorMessage: "Максимум 30 символов",
       },
     ])
     .onSuccess((event) => {
