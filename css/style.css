@@ -850,6 +850,237 @@ body {
 .footer-input.is-invalid {
   border: 1px solid red;
 }
+.bg-grey {
+  background: var(--Bachground, #f4f7fb);
+  padding-top: 2.875rem;
+}
+.footer-menu-wrapper {
+  display: flex;
+  align-items: first baseline;
+  margin-bottom: 4.6875rem;
+}
+.footer-menu-list-second {
+  columns: 2;
+  gap: 2.875rem;
+}
+.footer-menu-list-first,
+.footer-menu-list-second {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.footer-menu-second {
+  margin-right: 6.875rem;
+}
+.footer-menu-list-first {
+  margin-right: 7.8125rem;
+}
+.footer-menu-link {
+  text-decoration: none;
+  color: var(--Gray-600, #5d6c7b);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer-menu-item:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+.footer-menu-title,
+.footer-contacts-title {
+  color: var(--Black, #282739);
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 1.0625rem;
+}
+.footer-contacts-text {
+  margin: 0;
+  color: var(--Black, #282739);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0.3125rem;
+}
+.footer-contacts-link {
+  text-decoration: none;
+  color: var(--Black, #282739);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 0.4375rem;
+}
+.footer-contacts-schedule {
+  color: var(--Gray-600, #5d6c7b);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.contacts-groups {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+.footer-contacts-wrapper {
+  display: flex;
+}
+.contacts-info {
+  margin-right: 5.5625rem;
+}
+.footer-contacts-button {
+  border: 0;
+  background: inherit;
+  width: 6.625rem;
+  height: 1.0625rem;
+  color: var(--Purple, #6f73ee);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0;
+  cursor: pointer;
+}
+.footer-hr {
+  opacity: 0.15;
+  background: #5d6c7b;
+}
+.first-hr {
+  margin: 0;
+  margin-bottom: 2.25rem;
+}
+.hr-second {
+  margin: 0;
+  margin-bottom: 1.0625rem;
+  margin-top: 2.125rem;
+}
+.footer-networks-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.footer-img-block {
+  display: flex;
+  width: 9.4659rem;
+  height: 2.8125rem;
+  padding: 0.007rem 0.007rem 0.0069rem 0.014rem;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 0.3125rem;
+}
+.footer-networks-img {
+  width: 9.4659rem;
+  height: 2.8125rem;
+}
+.networks-wrapper {
+  display: flex;
+  gap: 0.625rem;
+}
+.footer-logo {
+  margin-right: 3.6875rem;
+}
+.social-info-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8125rem;
+  background: #fff;
+  width: 8.9375rem;
+  height: 2.8125rem;
+  border-radius: 0.3125rem;
+  justify-content: center;
+}
+.social-info-title {
+  margin: 0;
+  color: var(--Black, #282739);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.subscribers {
+  margin: 0;
+  color: var(--Gray-600, #5d6c7b);
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.social-info-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  position: absolute;
+  right: 0;
+}
+.tg {
+  fill: #039be5;
+}
+.notify-links {
+  display: flex;
+  align-items: center;
+  gap: 2.75rem;
+}
+.notify-link {
+  text-decoration: none;
+  color: var(--Gray-600, #5d6c7b);
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.partners-item-link {
+  text-decoration: none;
+}
+.notify-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.125rem;
+}
+.partners-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2.3125rem;
+}
+.partners {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+}
+.partners-item {
+  width: 2.125rem;
+  height: 1.4375rem;
+  background: #ffffff;
+  border-radius: 0.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat {
+  display: flex;
+  align-items: center;
+  gap: 0.9375rem;
+}
+.chat-text {
+  color: var(--Black, #282739);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+.chat-icons {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+}
 @media (max-width: 1300px) {
   .cards-wrapper {
     gap: 0;

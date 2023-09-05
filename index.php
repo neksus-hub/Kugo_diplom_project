@@ -608,6 +608,232 @@
         <!-- /.container -->
       </div>
       <!-- /.bg-blue -->
+      <div class="bg-grey">
+      <div class="container">
+      <div class="footer-bottom">
+        <div class="footer-menu-wrapper">
+          <div class="footer-menu-first">
+            <h2 class="footer-menu-title">Каталог товаров</h2>
+            <ul class="footer-menu-list-first">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Электросамокаты
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Электроскутеры
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Электровелосипеды
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Электровелосипеды
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-menu-first -->
+          <div class="footer-menu-second">
+          <h2 class="footer-menu-title">Покупателям</h2>
+            <ul class="footer-menu-list-second">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Сервисный центр
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Доставка и оплата
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Рассрочка
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Тест-драйв
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Блог
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Сотрудничество
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Контакты
+                </a>
+              </li>
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">
+                  Акции
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.footer-menu-second -->
+          <div class="footer-contacts-wrapper">
+            <div class="contacts-info">
+            <h2 class="footer-contacts-title">
+              Контакты
+            </h2>
+            <div class="contacts-groups">
+              <div class="footer-contacts-group">
+                <p class="footer-contacts-text">Call-центр</p>
+                <a href="tel:78005055461" class="footer-contacts-link">+7 (800) 505-54-61</a>
+                <p class="footer-contacts-schedule">Пн-Вс 10:00 - 20:00</p>
+              </div>
+              <!-- /.footer-contacts-group -->
+              <div class="footer-contacts-group">
+                <p class="footer-contacts-text">Сервисный центр</p>
+                <a href="tel:74993507692" class="footer-contacts-link">+7 (499) 350-76-92</a>
+                <p class="footer-contacts-schedule">Пн-Вс 10:00 - 20:00</p>
+              </div>
+              <!-- /.footer-contacts-group -->
+            </div>
+            </div>
+            <!-- /.contacts-info -->
+            <button class="footer-contacts-button">Заказать звонок</button>
+          </div>
+          <!-- /.footer-contacts-wrapper -->
+        </div>
+        <!-- /.footer-menu-wrapper -->
+      </div>
+      <!-- /.footer-bottom -->
+      <hr class="footer-hr first-hr">
+      </div>
+      <!-- /.container -->
+      <div class="container">
+        <div class="footer-networks-wrapper">
+          <h1 class="logo footer-logo">KUGOO</h1>
+          <div class="networks-wrapper">
+            <div class="footer-img-block">
+              <img src="img/google-play.svg" alt="google-play" class="footer-networks-img">
+            </div>
+            <div class="footer-img-block">
+              <img src="img/aps.svg" alt="Apple-store" class="footer-networks-img">
+            </div>
+          </div>
+          <div class="social-info-wrapper">
+            <div class="social-info-item">
+              <svg class="footer-social-icon" width="1.25rem" height="1.25rem">
+                <use href="img/sprite.svg#vk"></use>
+              </svg>
+              <div class="social-info">
+                <h3 class="social-info-title">Вконтакте</h3>
+                <p class="subscribers">3 300</p>
+              </div>
+            </div>
+            <!-- /.social-info-item -->
+            <div class="social-info-item">
+              <svg class="footer-social-icon" width="1.25rem" height="1.25rem">
+                <use href="img/sprite.svg#yt"></use>
+              </svg>
+              <div class="social-info">
+                <h3 class="social-info-title">YouTube</h3>
+                <p class="subscribers">3 603</p>
+              </div>
+            </div>
+            <!-- /.social-info-item -->
+            <div class="social-info-item">
+              <img src="img/tg.svg" alt="tg" class="footer-social-icon">
+              <div class="social-info">
+                <h3 class="social-info-title">Telegram</h3>
+                <p class="subscribers">432</p>
+              </div>
+            </div>
+            <!-- /.social-info-item -->
+          </div>
+          <!-- /.social-info-wrapper -->
+        </div>
+        <!-- /.footer-networks-wrapper -->
+        <hr class="footer-hr hr-second">
+      </div>
+      <!-- /.container -->
+      <div class="container">
+      <div class="footer-notify">
+        <div class="notify-wrapper">
+          <div class="notify-links">
+            <a href="#" class="notify-link">Реквизиты</a>
+            <a href="#" class="notify-link">Политика конфиденциальности</a>
+          </div>
+          <!-- /.notify-links -->
+          <div class="partners-wrapper">
+            <div class="partners">
+             <div class="partners-item">
+              <a href="#" class="partners-item-link">
+                <img src="img/gpay.svg" alt="google-play" class="partners-img">
+              </a>
+             </div>
+             <div class="partners-item">
+              <a href="#" class="partners-item-link">
+                <img src="img/apay.svg" alt="Apple-store" class="partners-img">
+              </a>
+             </div>
+             <div class="partners-item">
+             <a href="#" class="partners-item-link">
+               <img src="img/visa.svg" alt="Visa" class="partners-img">
+             </a>
+             </div>
+             <div class="partners-item">
+             <a href="#" class="partners-item-link">
+               <img src="img/msc.svg" alt="MasterCard" class="partners-img">
+             </a>
+             </div>
+             <div class="partners-item">
+             <a href="#" class="partners-item-link">
+               <img src="img/maestro.svg" alt="Maestro" class="partners-img">
+              </a>
+             </div>
+             <div class="partners-item">
+             <a href="#" class="partners-item-link">
+               <img src="img/vm.svg" alt="WebMoney" class="partners-img">
+              </a>
+             </div>
+             <div class="partners-item">
+             <a href="#" class="partners-item-link">
+                <img src="img/Qiwi.svg" alt="Qiwi" class="partners-img">
+              </a>
+              </div>
+            </div>
+            <!-- /.partners -->
+            <div class="chat">
+              <p class="chat-text">Онлайн чат:</p>
+              <div class="chat-icons">
+                <svg class="nav-social-icon" width="1rem" height="1rem">
+                  <use href="img/sprite.svg#vb"></use>
+                </svg>
+                <svg class="nav-social-icon" width="1rem" height="1rem">
+                  <use href="img/sprite.svg#ws"></use>
+                </svg>
+                <svg class="nav-social-icon" width="1rem" height="1rem">
+                  <use href="img/sprite.svg#tg"></use>
+                </svg>
+              </div>
+            </div>
+            <!-- /.chat -->
+          </div>
+          <!-- /.partners-wrapper -->
+        </div>
+        <!-- /.notify-wrapper -->
+      </div>
+      <!-- /.footer-notify -->
+      </div>
+      <!-- /.container -->
+      </div>
+      <!-- /.bg-grey -->
     </footer>
     <!-- /.footer -->
     <script src="js/e-mail.js"></script>
