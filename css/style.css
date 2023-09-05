@@ -853,6 +853,7 @@ body {
 .bg-grey {
   background: var(--Bachground, #f4f7fb);
   padding-top: 2.875rem;
+  padding-bottom: 1.0625rem;
 }
 .footer-menu-wrapper {
   display: flex;
@@ -976,8 +977,8 @@ body {
   border-radius: 0.3125rem;
 }
 .footer-networks-img {
-  width: 9.4659rem;
   height: 2.8125rem;
+  width: 100%;
 }
 .networks-wrapper {
   display: flex;
@@ -1042,7 +1043,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 1.125rem;
 }
 .partners-wrapper {
   display: flex;
@@ -1052,7 +1052,11 @@ body {
 .partners {
   display: flex;
   align-items: center;
-  gap: 0.3125rem;
+  gap: 5px;
+}
+.partners-img {
+  width: 1.5rem;
+  height: 0.625rem;
 }
 .partners-item {
   width: 2.125rem;
@@ -1080,6 +1084,13 @@ body {
   display: flex;
   align-items: center;
   gap: 0.875rem;
+}
+.footer-social-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.social-logo-wrapper {
+  display: flex;
 }
 @media (max-width: 1300px) {
   .cards-wrapper {
@@ -1185,6 +1196,14 @@ body {
     font-size: 12px;
   }
 }
+@media (max-width: 797px) {
+  .contacts-groups {
+    display: block;
+  }
+  .footer-contacts-group {
+    margin-bottom: 1.25rem;
+  }
+}
 @media (max-width: 756px) {
   html {
     font-size: 9px;
@@ -1229,7 +1248,7 @@ body {
     margin-top: 0.9375rem;
   }
 }
-@media (max-width: 535px) {
+@media (max-width: 539px) {
   .container {
     max-width: 80%;
   }
@@ -1259,6 +1278,47 @@ body {
   }
   .education-info {
     width: 100%;
+  }
+  .footer-form-title {
+    margin-right: 6.938rem;
+  }
+  .social-logo-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+  }
+  .social-info-wrapper {
+    position: relative;
+  }
+  .footer-networks-wrapper {
+    display: block;
+    position: none;
+  }
+  .social-info-item {
+    width: 33%;
+    gap: 1.2rem;
+    height: 4rem;
+  }
+  .footer-social-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .social-info-title {
+    font-size: 1.2rem;
+  }
+  .networks-wrapper {
+    width: 100%;
+  }
+  .footer-img-block {
+    height: 4rem;
+    width: 33%;
+  }
+  .partners {
+    display: none;
+  }
+  .subscribers {
+    font-size: 7px;
   }
 }
 @media (max-width: 480px) {
@@ -1305,6 +1365,75 @@ body {
     width: 10px;
     height: 10px;
     top: 1px;
+  }
+  .footer-form {
+    display: block;
+    padding-bottom: 4.875rem;
+    padding-top: 5.5rem;
+  }
+  .footer-form-title {
+    margin: 0;
+    margin-bottom: 1.25rem;
+    font-size: 24px;
+    width: 100%;
+  }
+  .footer-input {
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    margin-bottom: 15px;
+  }
+  .footer-input-group {
+    display: block;
+  }
+  .footer-form-button {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+  }
+  .footer-menu-wrapper {
+    display: grid;
+  }
+  .footer-menu-first {
+    margin-bottom: 20px;
+  }
+  .footer-menu-list-second {
+    columns: 1;
+    margin-bottom: 20px;
+  }
+  .footer-contacts-wrapper {
+    display: grid;
+  }
+  .footer-menu-title {
+    font-size: 2.125rem;
+    margin-bottom: 20px;
+  }
+  .footer-menu-link {
+    font-size: 1.6rem;
+  }
+  .footer-menu-list-first,
+  .footer-menu-list-second {
+    margin-left: 2rem;
+  }
+  .footer-menu-item:not(:last-child) {
+    margin-bottom: 1.7rem;
+  }
+  .footer-contacts-title {
+    font-size: 2.125rem;
+  }
+  .footer-contacts-text {
+    font-size: 2.2rem;
+  }
+  .footer-contacts-link {
+    font-size: 2rem;
+  }
+  .footer-contacts-schedule {
+    font-size: 1.7rem;
+  }
+  .footer-contacts-button {
+    font-size: 1.75rem;
+    width: 100%;
+    display: flex;
   }
 }
 @media (max-width: 420px) {
@@ -1466,7 +1595,7 @@ body {
     line-height: 10px;
   }
   .cta {
-    height: 43.813rem;
+    height: 48.813rem;
   }
   .input-group {
     margin-bottom: 2.25rem;

@@ -717,6 +717,7 @@
       <!-- /.container -->
       <div class="container">
         <div class="footer-networks-wrapper">
+          <div class="social-logo-wrapper">
           <h1 class="logo footer-logo">KUGOO</h1>
           <div class="networks-wrapper">
             <div class="footer-img-block">
@@ -726,6 +727,8 @@
               <img src="img/aps.svg" alt="Apple-store" class="footer-networks-img">
             </div>
           </div>
+          </div>
+          <!-- /.social-logo-wrapper -->
           <div class="social-info-wrapper">
             <div class="social-info-item">
               <svg class="footer-social-icon" width="1.25rem" height="1.25rem">
