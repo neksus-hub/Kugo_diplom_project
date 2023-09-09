@@ -1541,6 +1541,41 @@ body {
     width: 100%;
     display: flex;
   }
+  .modal-img-block {
+    display: none;
+  }
+  .modal-dialog {
+    width: 38.375rem;
+    height: 57rem;
+    padding: 2.5rem;
+  }
+  .modal-title {
+    width: 95%;
+    font-size: 2.7rem;
+    margin-bottom: 3rem;
+  }
+  .modal-subtitle {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  .modal-text {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+  .modal-info {
+    margin-right: 0;
+  }
+  .modal-input,
+  .modal-button {
+    height: 5.313rem;
+    font-size: 2rem;
+  }
+  .modal-checkbox-wrapper {
+    width: 100%;
+  }
+  .modal-button {
+    margin-bottom: 3rem;
+  }
 }
 @media (max-width: 420px) {
   .header-img {
