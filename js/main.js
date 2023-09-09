@@ -89,6 +89,59 @@ formse.forEach((form) => {
     });
 });
 
+const formModal = document.querySelectorAll(".modal-form");
+formModal.forEach((form) => {
+  const validation = new JustValidate(form, {
+    errorFieldCssClass: "is-invalid",
+  });
+  validation
+    .addField("[name=modaluserphone]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите номер телефона",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target; // наша форма
+      const formData = new FormData(thisForm); // данные из формы
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          console.log(response);
+        });
+      };
+      ajaxSend(formData);
+    });
+});
+
+const modal = document.querySelector(".modal");
+const modalDialog = document.querySelector(".modal-dialog");
+const modalClose = document.querySelector(".modal-close");
+
+document.addEventListener("click", (event) => {
+  if (
+    event.target.dataset.toggle == "modal" ||
+    event.target.parentNode.dataset.toggle == "modal" ||
+    (!event.composedPath().includes(modalDialog) &&
+      modal.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    modal.classList.toggle("is-open");
+  }
+});
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && modal.classList.contains("is-open")) {
+    modal.classList.toggle("is-open");
+  }
+});
+
+modalClose.addEventListener("click", (event) => {
+  event.preventDefault();
+  modal.classList.remove("is-open");
+});
+
 /* Создаем префикс +7, даже если вводят 8 или 9 */
 const prefixNumber = (str) => {
   /* если вводят семерку, добавляем ей скобку */

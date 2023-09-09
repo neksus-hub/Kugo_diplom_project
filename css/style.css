@@ -1092,6 +1092,112 @@ body {
 .social-logo-wrapper {
   display: flex;
 }
+.modal-dialog {
+  margin: auto;
+  width: 49.375rem;
+  height: 36.875rem;
+  padding: 2.5rem 3.5625rem 2.5rem 2.5rem;
+  background-color: #ffffff;
+  position: relative;
+}
+.modal-info {
+  margin-right: 3.75rem;
+}
+.modal-dialog-wrapper {
+  display: flex;
+}
+.modal-title {
+  color: var(--Black, #282739);
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 14.1875rem;
+  margin: 0;
+  margin-bottom: 0.5625rem;
+}
+.modal-subtitle {
+  color: var(--Black, #282739);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 1.8125rem;
+}
+.modal-text {
+  color: var(--Black, #282739);
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5.375rem;
+  width: 17.875rem;
+}
+.modal-img {
+  border-radius: 0.625rem;
+  width: 21.0625rem;
+  height: 31.0625rem;
+}
+.modal-input-group {
+  display: block;
+  position: relative;
+}
+.modal-input {
+  height: 3.3125rem;
+  width: 100%;
+  border-radius: 0.3125rem;
+  border: 1px solid var(--gray-200, #eaebed);
+  background: var(--white, #fff);
+  padding: 0.9375rem 3.25rem 0.9375rem 1.5625rem;
+  margin-bottom: 1.25rem;
+}
+.modal-button {
+  height: 3.3125rem;
+  width: 100%;
+  color: var(--white, #fff);
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.modal-checkbox-wrapper {
+  width: 15.25rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.modal {
+  opacity: 0;
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  transform: translateX(-100%);
+  background-color: rgba(41, 45, 51, 50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
+}
+.modal.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal-close-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 0.9375rem;
+  margin-right: 0.9375rem;
+}
+
 @media (max-width: 1300px) {
   .cards-wrapper {
     gap: 0;

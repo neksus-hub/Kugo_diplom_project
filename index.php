@@ -161,7 +161,7 @@
             <!-- /.header-features -->
               </div>
               <!-- /.header-features-wrapper -->
-            <button class="button-light button-header-content">Записаться</button>
+            <button class="button-light button-header-content" data-toggle="modal">Записаться</button>
           </div>
           <!-- /.header-content -->
         </div>
@@ -340,7 +340,7 @@
                   </div>
                 </div>
                 <!-- /.price -->
-                <button class="button card-button">Записаться на тест-драйв</button>
+                <button class="button card-button" data-toggle="modal">Записаться на тест-драйв</button>
                 </div>
               </div>
               <!-- /.cards-item -->
@@ -406,7 +406,7 @@
                   </div>
                 </div>
                 <!-- /.price -->
-                <button class="button card-button">Записаться на тест-драйв</button>
+                <button class="button card-button" data-toggle="modal">Записаться на тест-драйв</button>
                 </div>
               </div>
               <!-- /.cards-item -->
@@ -472,7 +472,7 @@
                   </div>
                 </div>
                 <!-- /.price -->
-                <button class="button card-button">Записаться на тест-драйв</button>
+                <button class="button card-button" data-toggle="modal">Записаться на тест-драйв</button>
                 </div>
               </div>
               <!-- /.cards-item -->
@@ -538,7 +538,7 @@
                   </div>
                 </div>
                 <!-- /.price -->
-                <button class="button card-button">Записаться на тест-драйв</button>
+                <button class="button card-button" data-toggle="modal">Записаться на тест-драйв</button>
                 </div>
               </div>
               <!-- /.cards-item -->
@@ -705,7 +705,7 @@
             </div>
             </div>
             <!-- /.contacts-info -->
-            <button class="footer-contacts-button">Заказать звонок</button>
+            <button class="footer-contacts-button" data-toggle="modal">Заказать звонок</button>
           </div>
           <!-- /.footer-contacts-wrapper -->
         </div>
@@ -839,6 +839,39 @@
       <!-- /.bg-grey -->
     </footer>
     <!-- /.footer -->
+
+    <div class="modal">
+      <div class="modal-dialog">
+        <div class="modal-dialog-wrapper">
+          <div class="modal-info">
+            <h1 class="modal-title">Запишитесь на тест-драйв электросамоката</h1>
+            <a href="#" class="modal-close">
+              <img src="img/close.svg" alt="close" class="modal-close-icon" width="20px" height="20px">
+            </a>
+            <p class="modal-subtitle">и подберите модель для себя</p>
+            <p class="modal-text">Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.</p>
+            <form action="modal.php" class="modal-form" method="post">
+            <div class="modal-input-wrapper">
+              <div class="modal-input-group">
+                <input type="tel" class="modal-input phone-mask" name="modaluserphone" placeholder="+7 (___) __ - __ - __" id="phone">
+                <button class="button modal-button" type="submit">Оставить заявку на тест-драйв</button>
+                <div class="checkbox-wrapper modal-checkbox-wrapper">
+                  <input type="checkbox" class="checkbox" id="checkbox-modal" name="checkbox">
+                  <label for="checkbox-modal" class="checkbox-label modal-checkbox-label">Нажимая на кнопку, вы соглашаетесь  наобработку персональныхданных и политикой конфиденциальности</label>
+                </div>  
+              </div>
+            </div>
+              <!-- /.modal-input-wrapper -->
+            </form>
+          </div>
+          <!-- /.modal-info -->
+          <div class="modal-img-block">
+            <img src="img/modal-img.png" alt="success" class="modal-img">
+          </div>
+        </div>
+        <!-- /.modal-dialog-wrapper -->
+      </div>
+    </div>
     <script src="js/e-mail.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
