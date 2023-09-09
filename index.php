@@ -172,7 +172,8 @@
     <!-- /.header -->
 
     <section class="support">
-      <div class="container">
+      <div class="support-img-wrapper">
+        <div class="container">
         <div class="support-wrapper">
           <div class="support-info">
             <h1 class="support-info-title">Определите максимально подходящую вам модель
@@ -207,13 +208,15 @@
               <!-- /.support-info-list -->
           </div>
           <!-- /.support-info -->
-          <div class="support-img-block">
-            <img src="./img/scooter.png" alt="scooter" class="support-img">
-          </div>
         </div>
         <!-- /.support-wrapper -->
+        </div>
+        <!-- /.container -->
+        <div class="support-img-block">
+            <img src="./img/scooter.png" alt="scooter" class="support-img">
+          </div>
       </div>
-      <!-- /.container -->
+      <!-- /.support-img-wrapper -->
     </section>
 
     <section class="education">

@@ -319,6 +319,11 @@ body {
   color: white;
   cursor: pointer;
 }
+.support-img-wrapper {
+  width: 97%;
+  position: relative;
+  margin: auto;
+}
 .support {
   margin-bottom: 10.1875rem;
 }
@@ -374,9 +379,9 @@ body {
   min-width: 32.1875rem;
 }
 .support-img-block {
-  margin-right: 1.25rem;
   right: 0;
   position: absolute;
+  top: 0;
 }
 .education {
   margin-bottom: 8.625rem;
